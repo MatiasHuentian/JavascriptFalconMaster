@@ -43,6 +43,5 @@ Capitulo 8 ciclo while => mas d elo mismo, cosas que ya conozco.. a lo mas expli
 
 Captulo 9  funciones => las unciones en javascript se definen como  
     function funcion(){ //todo here } por lo demas.. es como siempre, las variables de adentro
-        no se pueden llamar... etc etc. además de que obviamente no puedes crear algun tipo de return por fuera de la funcionn 
-
-        
+        no se pueden llamar... etc etc. además de que obviamente no puedes crear algun tipo de 
+        return por fuera de la funcionn 

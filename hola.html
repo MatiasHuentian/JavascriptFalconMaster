@@ -12,11 +12,25 @@
 
 
     </script>
-    <h1><center> capitulo 4 Arrays </center></h1>
+    <h1><center> capitulo 10 Practica sobre como ocuar javascript para traer resultados </center></h1>
 
-    <h4>
-        
-    </h4>
+        <form action="">
+            <input type="text"  id="num1">
+            <input type="text"  id="num2">
+            <button type="button"  value="Sumar" onclick="alert( suma() );"> </button>
+        </form>
+
+    <script>
+
+    var suma =function(){
+        var num1  = parseFloat( document.getElementById("num1").value);
+        var num2  = parseFloat( document.getElementById("num2").value);
+
+        var resultado  = num1+num2;
+        return resultado;
+    }
+
+    </script>
     <script src="intro.js"></script>
 </body>
 </html>
