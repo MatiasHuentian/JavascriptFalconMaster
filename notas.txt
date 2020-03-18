@@ -45,3 +45,7 @@ Captulo 9  funciones => las unciones en javascript se definen como
     function funcion(){ //todo here } por lo demas.. es como siempre, las variables de adentro
         no se pueden llamar... etc etc. además de que obviamente no puedes crear algun tipo de 
         return por fuera de la funcionn 
+
+Capitulo 10 Practica de javasript => aqui me puse a ver como podia hacer sumar dos datos
+    llamandolos desde una funciones de javascript, la idea era ver como s podia hacer y
+    asegurarme que alla entendido bien y no tenga ningun concepto malformado
