@@ -58,3 +58,14 @@ Capitulo 11 Scopes => las variables globales se puedem definir.. o creandolas fu
     Otra cosa muuuy importatne del capitulo 11 es de que enseña como ahcer funciones autoinvocadas, esto;
         para no tener problemas con la seguridad, y de esta forma evitar que un programa de terceros
         pueda modifivar las variables qeu estén dentro de este codigo.
+
+Capitulo 12 Funciones de cadenas de texto 
+    =>al igual que en las arrays, existe el 
+        .lenght para saber la longitud, 
+        .substring() para poder elegir entre que partes poder separar el texto,
+        -substr() para separar el texto pero enrte ppunto a y punto b
+        .indexOf() pones la letra y te dice en que posicion estara la primera letra que coincida
+        .lastIndexOf() es lo mismo pero alrevez de atras para adelante
+        .replace(texotAModificar , Modificacion) es para modificar una parte
+        .toUpperCase mayus
+        .toLowerCase
