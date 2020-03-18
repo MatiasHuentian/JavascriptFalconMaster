@@ -1,1 +1,4 @@
-alert('soy alert dentro del intro!');
+
+var nombre = prompt('ingrese dato');
+        alert(nombre);
+document.write(nombre);
