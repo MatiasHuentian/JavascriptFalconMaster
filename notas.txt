@@ -33,3 +33,7 @@ Aclarar que lo de arriba es una lista basica sobre algunos tipos de metodos, esp
 Capitulo 6 condicionales => no veo nda relevante en este capitulo, habla sobre la condicionante if
     pero es algo que ya conozco dado que en todos los lenguajes de programacion se ocupa, no he 
     apreciado ningún cambio respectoa  lenguajes como php o java.
+
+Capitulo 7 ciclo for => explica que es un ciclo for, aunque eso ya lo conozco... al igual que las otras
+    condicionales son cosas en la que ya e manejo así que no hare ejercicios practivcos de estos 
+    ejercicios
