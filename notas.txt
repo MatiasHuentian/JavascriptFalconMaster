@@ -37,3 +37,12 @@ Capitulo 6 condicionales => no veo nda relevante en este capitulo, habla sobre l
 Capitulo 7 ciclo for => explica que es un ciclo for, aunque eso ya lo conozco... al igual que las otras
     condicionales son cosas en la que ya e manejo así que no hare ejercicios practivcos de estos 
     ejercicios
+
+Capitulo 8 ciclo while => mas d elo mismo, cosas que ya conozco.. a lo mas explico el ciclo dowhile 
+    al final pero por lo demas... todo lo que ya tengo conocimiento
+
+Captulo 9  funciones => las unciones en javascript se definen como  
+    function funcion(){ //todo here } por lo demas.. es como siempre, las variables de adentro
+        no se pueden llamar... etc etc. además de que obviamente no puedes crear algun tipo de return por fuera de la funcionn 
+
+        
