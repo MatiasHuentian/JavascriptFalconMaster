@@ -29,3 +29,7 @@ Capitulo 5 arrays y algunos metodos/propiedads utiles:
          o numerica la csoa es de que los ordena
 Aclarar que lo de arriba es una lista basica sobre algunos tipos de metodos, espero irla 
     actualizando mediante el curso y las necesidades que tenga.
+
+Capitulo 6 condicionales => no veo nda relevante en este capitulo, habla sobre la condicionante if
+    pero es algo que ya conozco dado que en todos los lenguajes de programacion se ocupa, no he 
+    apreciado ningún cambio respectoa  lenguajes como php o java.
