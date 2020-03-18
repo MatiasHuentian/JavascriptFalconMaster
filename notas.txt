@@ -14,3 +14,18 @@ Capitulo 4 arrays: los arrays s escribe como en php, pero aquí pueden ser modif
     del array y asignandole otro valor,
     var amigos[2] = "carlos"
     en el caso de arriba si el array de item 2 se llamaba juan ahora se llamará carlos
+
+Capitulo 5 arrays y algunos metodos/propiedads utiles:
+    array.length => te va  amostrar el largo.. esto es una propiedad de array, no un metodo
+    array.push( var , var) =>este metodo es para poder agregar al final de al array datos 
+    array.pop() => es para eliminar el último elemento de una array solo el ÚLTIMO
+    array.concat( variableIncluyendoArray ) => con este unes los dos arrays, aunque el indice
+        primero será el array descrito y lo seguira el otro array tambien sirve si le pones 
+        otros tipos de variables.
+    array.join( valor ) => lo que hace esto es de que cuando llames a la array, separe los items
+        mediante el valor que le allas dado en valor, en vez de una "," como lo hace 
+        convencionalmente
+    array.sort() => esta es una propiedad, lo que ace es de que los arregla de forma alfabetica...
+         o numerica la csoa es de que los ordena
+Aclarar que lo de arriba es una lista basica sobre algunos tipos de metodos, espero irla 
+    actualizando mediante el curso y las necesidades que tenga.
