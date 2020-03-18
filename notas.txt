@@ -6,6 +6,11 @@ Capitulo 0: habla sobre unas poquitas csoas de javascrpt y enseña como poder ll
 Capitulo 2 variables: muestra como ocupar las variables y los emtodos de aplicaciones que tienen
     ademas de que se puede concatenar, y el uso de la funcion promp opara mandar un mensaje por afuerita
 
-Capitulo3 tipos de variables:naad que no conzozco, muestra que osn los int,boolean,float,string,null, etc.
+Capitulo 3 tipos de variables:naad que no conzozco, muestra que osn los int,boolean,float,string,null, etc.
     lo unico que teine de adicional es la variable; 
     NaN = variable invalida... como cuando multiplicaas un string... etc 
+
+Capitulo 4 arrays: los arrays s escribe como en php, pero aquí pueden ser modificados llamando al indice
+    del array y asignandole otro valor,
+    var amigos[2] = "carlos"
+    en el caso de arriba si el array de item 2 se llamaba juan ahora se llamará carlos
