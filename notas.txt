@@ -49,3 +49,12 @@ Captulo 9  funciones => las unciones en javascript se definen como
 Capitulo 10 Practica de javasript => aqui me puse a ver como podia hacer sumar dos datos
     llamandolos desde una funciones de javascript, la idea era ver como s podia hacer y
     asegurarme que alla entendido bien y no tenga ningun concepto malformado
+
+Capitulo 11 Scopes => las variables globales se puedem definir.. o creandolas fuera del script
+    o creandolas sin el prefijo var(esto en caso de que la crees dentro de una funcion ), y las
+    locales son todas las que estan definidas dentro de las funciones, y solo pueden ser accedidas
+    por la misma funciones o si son anidadas.
+
+    Otra cosa muuuy importatne del capitulo 11 es de que enseña como ahcer funciones autoinvocadas, esto;
+        para no tener problemas con la seguridad, y de esta forma evitar que un programa de terceros
+        pueda modifivar las variables qeu estén dentro de este codigo.
