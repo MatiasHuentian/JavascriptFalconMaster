@@ -69,3 +69,7 @@ Capitulo 12 Funciones de cadenas de texto
         .replace(texotAModificar , Modificacion) es para modificar una parte
         .toUpperCase mayus
         .toLowerCase
+
+Capitulo 13 introduccion al DOM(Document Object Model)
+    el en este capitulo enseña sore como poder trer los datos que estan dentro de un tag (getElementByTagName),
+    y como poder extraer todo le textoq ue esta dentro de algubno de estos mimos (innerHtml);
