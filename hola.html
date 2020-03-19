@@ -3,31 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM</title>
+    <title>DOM modificar estilñops y elementos</title>
 </head>
 <style>
     .thumb{
         width: 200px;
-        transition: 300mx all ease;
+        transition: 333ms all ease;
     }
 
     .grande{
         width: 400px;
     }
 
-    .titulo{
-        border: 1px solid navy;
-        background: #ccc;
-        padding: 10px;
-    }
-
-    .tituloGrande{
-        font-size: 60px ; 
-    }
+    
 </style>
 <body>
-    <h1 id="encabezado" class="">Este es el encabezado v1</h1>
-
+    <form action="">
+        <input type="button" value="Cambio de Tamaño" onclick="zoom()">
+    </form>
+    <img id="thumb" class="thumb" src="http://lorempixel.com/400/400/"   width="400" alt="">
 
     <script src="intro.js"></script>
 </body>

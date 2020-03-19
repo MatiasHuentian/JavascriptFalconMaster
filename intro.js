@@ -18,9 +18,13 @@
 // //5.- agregar el elemento al documento (insertar el elemento)
 // document.getElementById("subtitulo").appendChild(elemento);
 
-var encabezado = document.getElementById("encabezado");
+ function zoom(){
+    var thumb = document.getElementById("thumb");
 
-encabezado.className = "titulo tituloGrande"
-encabezado.style.textAlign = "center";
+    if(thumb.className == "thumb"){
+        thumb.className = "thumb grande";
+    }else{
+        thumb.className = "thumb";
+    }
 
-encabezado.className = encabezado.className.replace("titulo" , "")
+ }

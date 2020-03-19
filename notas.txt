@@ -125,3 +125,6 @@ Capitulo 18 modificar estilo de elemento:
         tu escribes el atributo por el cua quieres reemplazarlo .
     encabezado.className = encabezado.className.replace("titulo" , "") para reemplazar solo una cosa.
 
+Capitulo 19 Practica de modificar estlos de los elementos.
+    aquí se muestra como poder manejar los estilos de iun a imagen a la hora de ahcer click en alguna parte
+     ocupando la propiedad onclick
