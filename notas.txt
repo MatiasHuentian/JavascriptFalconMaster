@@ -86,3 +86,11 @@ Capitulo 14 creando nodos para insertar al DOM(Document Object Model)
     elemento.setAttribute("align" , 'center');
     //5.- agregar el elemento al documento (insertar el elemento)
     document.getElementById("subtitulo").appendChild(elemento);
+
+Capitulo 15 agregnado nodos donde se plasca DOM(Document Object Model)
+    Aqui se muestra sobre como poder insertar nodos en partes especificas..
+    como dentro de un tag padre (parentNode), o acceder al elemento hijo,
+    para despues decidir si insertar el nodo antes o despues de esta ubicacion
+    Recursos utlizados;
+        .parentNode => encuentra el tag que sea padre delq ue se este buscando
+        .insertBefore => este seencuentra despues del elemento que uno alla seleccionado
