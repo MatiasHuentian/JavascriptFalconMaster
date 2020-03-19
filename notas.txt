@@ -118,3 +118,10 @@ Capitulo 17 Acceso a los atributos del DOM (Document Object Model)
     Para tener la informacion mucho mas clara animo a que veas el codigo html que se puede ejecutar 
     en cualquier computador
 
+Capitulo 18 modificar estilo de elemento:
+    En este capitulo vemos como poder modificar los estilos que contiene el html, de una forma 
+        bastante simple y fácil, ocupando como por ejemplo;
+    encabezado.style.textAlign = "center"; para darle el atributo center, despues del ".style"
+        tu escribes el atributo por el cua quieres reemplazarlo .
+    encabezado.className = encabezado.className.replace("titulo" , "") para reemplazar solo una cosa.
+

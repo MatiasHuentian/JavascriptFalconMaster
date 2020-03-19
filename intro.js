@@ -18,8 +18,9 @@
 // //5.- agregar el elemento al documento (insertar el elemento)
 // document.getElementById("subtitulo").appendChild(elemento);
 
-var elemento = document.createElement("div");
-var padre = document.getElementById("contenedor")
-var primerDiv = document.getElementsByTagName("div")[0];
-elemento.setAttribute("class" , "azul");
-padre.insertBefore(elemento , primerDiv);
+var encabezado = document.getElementById("encabezado");
+
+encabezado.className = "titulo tituloGrande"
+encabezado.style.textAlign = "center";
+
+encabezado.className = encabezado.className.replace("titulo" , "")
