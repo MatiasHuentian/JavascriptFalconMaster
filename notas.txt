@@ -110,3 +110,11 @@ Capitulo 16 modificar y acceder al contenido de un elemtno DOM (Document Object 
             no es interpretado por html, solo texto
         textContent() => es para poder reemplazar el texto pero de forma literal... no puedes crear
             divs ni nada de eso.. solamente texto.
+Capitulo 17 Acceso a los atributos del DOM (Document Object Model)
+    en este capitulo estoy bviendo sobre como poder modificar los atributos mediante ciertos metodos
+        Como por ejemplo;
+    setAttribute(nombreDelAtributo(aquíVieneElNombreDelAtribto id,Class,etc...) , valorDelAtributo")
+        como bine dice la funcion, con esto tu defines el atributo.
+    Para tener la informacion mucho mas clara animo a que veas el codigo html que se puede ejecutar 
+    en cualquier computador
+

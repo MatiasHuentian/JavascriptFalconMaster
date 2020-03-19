@@ -18,17 +18,8 @@
 // //5.- agregar el elemento al documento (insertar el elemento)
 // document.getElementById("subtitulo").appendChild(elemento);
 
-var elemento = document.createElement("li");
-var contenido = document.createTextNode("ootro elemento nuevo de Li");
-
-elemento.appendChild(contenido);
-
-var padre = document.getElementsByTagName("li")[0].parentNode;
-var referencia = document.getElementsByTagName("li")[0];
-padre.removeChild(referencia);
-
-//si ocuoas innergghtml ejecutara codigo html y el text content no puede ejecutar textoHtml,
-// obviamente textContent seguro para trabajar con formularios
-
-// var primerElemento = document.getElementById("primero");
-// primerElemento.textContent = "Cambio el texto";
+var elemento = document.createElement("div");
+var padre = document.getElementById("contenedor")
+var primerDiv = document.getElementsByTagName("div")[0];
+elemento.setAttribute("class" , "azul");
+padre.insertBefore(elemento , primerDiv);
