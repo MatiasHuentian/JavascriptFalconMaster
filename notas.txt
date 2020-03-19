@@ -73,3 +73,16 @@ Capitulo 12 Funciones de cadenas de texto
 Capitulo 13 introduccion al DOM(Document Object Model)
     el en este capitulo enseña sore como poder trer los datos que estan dentro de un tag (getElementByTagName),
     y como poder extraer todo le textoq ue esta dentro de algubno de estos mimos (innerHtml);
+
+Capitulo 14 creando nodos para insertar al DOM(Document Object Model)
+    enseña sobre como poder insertar nodos con JS mediante 5 pasos que el aclara de la siguiente forma.
+    //1.- Crear el elemento (crear un elemento p , b, etc)
+    var elemento = document.createElement("h2");
+    //2.- Crear un nodo de texto (crear el texto que irá dentro de aquel parrafo)
+    var contenido =document.createTextNode("Este es el titular del h2")
+    //3.- Añadir el noo de texto al elemento (unir el texto con el elemento)
+    elemento.appendChild(contenido);
+    //4.- Agregar atributos al elemento (embellezer el elemento)
+    elemento.setAttribute("align" , 'center');
+    //5.- agregar el elemento al documento (insertar el elemento)
+    document.getElementById("subtitulo").appendChild(elemento);
