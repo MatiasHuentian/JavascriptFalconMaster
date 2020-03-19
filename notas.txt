@@ -94,3 +94,19 @@ Capitulo 15 agregnado nodos donde se plasca DOM(Document Object Model)
     Recursos utlizados;
         .parentNode => encuentra el tag que sea padre delq ue se este buscando
         .insertBefore => este seencuentra despues del elemento que uno alla seleccionado
+
+Capitulo 16 modificar y acceder al contenido de un elemtno DOM (Document Object Model)
+    aquí enseña sobre ocmo poder modificar algunos elementos entre otras cosas
+    Sintaxiss que enseña:
+        removeChild(elementoQueSeQuiereEliminar) => para poder eliminar alguna parte,esto 
+            es beneficioso cuandos abes que un elemento no lo vas a ocupar mas, así no 
+            ocupas tanto espacio
+        replaceChild(elementoDeReferencia , ElementoConElQueLoDeseasCambiar)=> este es ,
+            para reeemplazar alguna cosa , obviamente estas funciones se hacen desde 
+            algún elemento padre definido con el getElementBy...
+        innerHtml() => para traer el texto tml pero en crudo, con los p y todo, esto 
+            tambien sirve para que justamente puedas crear divs, li, elementos...
+            dentro del inner, en cambio con el textContent, solo cambias el texto y es literal..
+            no es interpretado por html, solo texto
+        textContent() => es para poder reemplazar el texto pero de forma literal... no puedes crear
+            divs ni nada de eso.. solamente texto.

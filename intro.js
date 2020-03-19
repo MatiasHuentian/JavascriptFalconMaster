@@ -19,12 +19,16 @@
 // document.getElementById("subtitulo").appendChild(elemento);
 
 var elemento = document.createElement("li");
-var contenido = document.createTextNode("Texto nuevo de Li");
+var contenido = document.createTextNode("ootro elemento nuevo de Li");
+
 elemento.appendChild(contenido);
 
 var padre = document.getElementsByTagName("li")[0].parentNode;
-var padre = document.getElementById("lista");
-var primerElemento = document.getElementsByTagName("li")[0];
-padre.insertBefore(elemento , primerElemento );//lo agrega al inicio
-// padre.appendChild(elemento); // lo agrega al final
+var referencia = document.getElementsByTagName("li")[0];
+padre.removeChild(referencia);
 
+//si ocuoas innergghtml ejecutara codigo html y el text content no puede ejecutar textoHtml,
+// obviamente textContent seguro para trabajar con formularios
+
+// var primerElemento = document.getElementById("primero");
+// primerElemento.textContent = "Cambio el texto";
