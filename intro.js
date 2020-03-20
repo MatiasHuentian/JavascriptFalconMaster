@@ -18,24 +18,7 @@
 // //5.- agregar el elemento al documento (insertar el elemento)
 // document.getElementById("subtitulo").appendChild(elemento);
 
-    (function(){
-
-        var input = document.getElementById("input");
-        // input.addEventListener("focus" , focus );
-        // input.addEventListener("blur" , blur );
-        input.addEventListener("change" , cambio);
-        // input.removeEventListener("change" , cambio);
-
-        function cambio(e){
-            alert("es de tipo " + e.target);
-            e.prevenDefault();
-        }
-        function blur(e){
-            alert("es de tipo " + e.type);
-        }
-        function focus(e){
-            alert("es de tipo " + e.type);
-        }
-
-    }())
-  
+   (function(){
+          var formulario = document.formulario.nombre;
+          alert(document.formulario.nombre.type)
+   }())

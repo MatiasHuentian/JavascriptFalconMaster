@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM modificar estilñops y elementos</title>
+    <title>DOM Formularios</title>
 </head>
 <style>
     .thumb{
@@ -19,9 +19,22 @@
 </style>
 <body>
     
-    <button id="boton">Boton</button>
-    <input type="text"  id="input">
+    
+    <form action="" name="formulario" method="get">
 
+        <input type="text"  name="nombre" id="nombre" maxlenght="30" placeholder="Nombre:"  >
+        <br>
+
+        <input type="radio" name="sexo" id="sexo" id="hombre" value="Hombre"  > Hombre
+        <input type="radio" name="sexo" id="sexo" id="mujer" value="Mujer"  > Mujer
+        <br>
+
+        <input type="checkbox" name="terminos" id="terminos" > Terminos y condiciones
+        <br>
+
+        <input type="submit" value="Enviar" name="btn" id="btn">
+    </form>
+ 
     <script src="intro.js"></script>
 </body>
 </html>

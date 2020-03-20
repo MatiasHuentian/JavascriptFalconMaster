@@ -135,3 +135,7 @@ Capituo 20 eventos del DOM (Document Object Model)
     .addEventListener(tipo , funcion) => esto es para poder crear un evento en algun momento.
 
     Ademas agregué algunos ejemplos a los js
+
+Capitulo 21 Aqui enseña sobre como poder ocupar losinput y poder llamar los datos, ademas de aclararsiertos
+    puntos de dudas
+    
