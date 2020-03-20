@@ -18,13 +18,24 @@
 // //5.- agregar el elemento al documento (insertar el elemento)
 // document.getElementById("subtitulo").appendChild(elemento);
 
- function zoom(){
-    var thumb = document.getElementById("thumb");
+    (function(){
 
-    if(thumb.className == "thumb"){
-        thumb.className = "thumb grande";
-    }else{
-        thumb.className = "thumb";
-    }
+        var input = document.getElementById("input");
+        // input.addEventListener("focus" , focus );
+        // input.addEventListener("blur" , blur );
+        input.addEventListener("change" , cambio);
+        // input.removeEventListener("change" , cambio);
 
- }
+        function cambio(e){
+            alert("es de tipo " + e.target);
+            e.prevenDefault();
+        }
+        function blur(e){
+            alert("es de tipo " + e.type);
+        }
+        function focus(e){
+            alert("es de tipo " + e.type);
+        }
+
+    }())
+  

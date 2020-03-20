@@ -128,3 +128,10 @@ Capitulo 18 modificar estilo de elemento:
 Capitulo 19 Practica de modificar estlos de los elementos.
     aquí se muestra como poder manejar los estilos de iun a imagen a la hora de ahcer click en alguna parte
      ocupando la propiedad onclick
+
+Capituo 20 eventos del DOM (Document Object Model)
+    Aquí se neseña como poder darle eventos a los elementos de html, mediante el evenListener, y como
+        ocupar siertas cosas en base la variable e (es muy similar a loq ue se hace en el lenguaje de java).
+    .addEventListener(tipo , funcion) => esto es para poder crear un evento en algun momento.
+
+    Ademas agregué algunos ejemplos a los js
